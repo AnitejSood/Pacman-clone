@@ -125,6 +125,7 @@ touch pages/index.js
 
 echo "import React from 'react'
 import Head from 'next/head'
+import { Analytics } from '@vercel/analytics/next'
 
 const Index = () => (
   <>
@@ -147,6 +148,7 @@ const Index = () => (
       height='100%'
       frameBorder='0'
     />
+    <Analytics />
   </>
 )
 
